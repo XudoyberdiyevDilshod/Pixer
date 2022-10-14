@@ -1,0 +1,136 @@
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/PlusJakartaSans-Regular.woff2') format('woff2'),
+      url('../fonts/PlusJakartaSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/PlusJakartaSans-Medium.woff2') format('woff2'),
+      url('../fonts/PlusJakartaSans-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/PlusJakartaSans-Bold.woff2') format('woff2'),
+      url('../fonts/PlusJakartaSans-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Plus Jakarta Sans';
+  src: url('../fonts/PlusJakartaSans-SemiBold.woff2') format('woff2'),
+      url('../fonts/PlusJakartaSans-SemiBold.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+img {
+  vertical-align: middle;
+  object-fit: cover;
+}
+
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.container {
+  width: 1256px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* site header pixer start */
+
+.site-header-pixer {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeef4;
+  position: fixed;
+  z-index: 1;
+  padding-top: 89px;
+  top: 0;
+}
+
+.header-inner {
+  padding: 24px 0;
+  display: flex;
+  align-items: center;
+}
+
+.pixer-logo-link {
+  margin-right: 50px;
+}
+
+.pixer-nav {
+}
+
+.pixer-header-item {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 402px;
+  display: flex;
+}
+
+.item-link {
+  margin: 0;
+  margin-right: 30px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #101010;
+}
+
+.pixer-header-link {
+  margin: 0;
+  margin-left: auto;
+  padding: 12px 24px;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 120%;
+  color: #FFFFFF;
+  background: #101010;
+  border-radius: 6px;
+}
+
+/* site header pixer finish */
+
+/* section hero */
+
+.hero {
+}
+
+
+/* pixer-site-footer start */
+
+.pixer-site-footer {
+  background: #101010;
+}
