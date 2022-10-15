@@ -362,12 +362,20 @@ img {
   color: #101010;
 }
 
+.it-courses-list-title:hover {
+  color: #fff;
+}
+
 .it-courses-list-text {
   margin: 0 0 50px;
   font-weight: 400;
   font-size: 18px;
   line-height: 150%;
   color: #636f87;
+}
+
+.it-courses-list-text:hover {
+  color: #fff;
 }
 
 .active {
@@ -390,6 +398,10 @@ img {
 .active-link {
   color: #fff;
   text-decoration: underline;
+}
+
+.it-courses-list-link:hover {
+  color: #fff;
 }
 /* section it-courses finish */
 
