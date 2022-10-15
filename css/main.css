@@ -682,6 +682,10 @@ img {
   color: #1AAB7B;
 }
 
+.site-footer-items-link:active {
+  opacity: 0.8;
+}
+
 .footer-item {
   margin: 0;
   margin-top: 32px;
