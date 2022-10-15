@@ -289,6 +289,7 @@ img {
 .it-courses-lists:nth-child(2):hover {
   background-color: #1aab7b;
   border-radius: 6px;
+  border: 2px solid #1aab7b;
   transition: all 0.4s ease;
 }
 
@@ -306,6 +307,7 @@ img {
 .it-courses-lists:nth-child(3):hover {
   background-color: #1aab7b;
   border-radius: 6px;
+  border: 2px solid #1aab7b;
   transition: all 0.4s ease;
 }
 
@@ -316,6 +318,7 @@ img {
 .it-courses-lists:nth-child(4):hover {
   background-color: #1aab7b;
   border-radius: 6px;
+  border: 2px solid #1aab7b;
   transition: all 0.4s ease;
 }
 
@@ -329,6 +332,7 @@ img {
 .it-courses-lists:nth-child(4):hover {
   background-color: #1aab7b;
   border-radius: 6px;
+  border: 2px solid #1aab7b;
   transition: all 0.4s ease;
 }
 
@@ -347,6 +351,7 @@ img {
 .it-courses-lists:nth-child(5):hover {
   background-color: #1aab7b;
   border-radius: 6px;
+  border: 2px solid #1aab7b;
   transition: all 0.4s ease;
 }
 
